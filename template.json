@@ -41,7 +41,7 @@
 			"#define seal(n,m) (((n)%(m)!=0)?((n)/(m)+1):((n)/(m)))",
 			"#define all(v) v.begin(), v.end()",
 			"#define sz(x) ((int)(x).size())",
-			"#define mem(v,p) memset(v,sizeof(v),p)",
+			"#define mem(v,p) memset(v,p,sizeof(v))",
 			"#define endl '\\n'",
 			"#define yes cout<<\"YES\"<<endl",
 			"#define no cout<<\"NO\"<<endl",
