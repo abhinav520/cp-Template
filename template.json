@@ -120,22 +120,22 @@
 		],
 		"description": "inbuilt Bits function"
 	},
-	// "generate subsets": {
-	// 	"prefix": ["subsets","generateSubsets"],
-	// 	"body": [
-	// 		"void subset(int* arr,int n){",
-	// 		"	for(int i=0;i<(1<<n);i++){",
-	// 		"		for(int j=0;j<n;j++){",
-	// 		"			if(i & (1<<j)){",
-	// 		"				cout<<arr[j]<<" ";",
-	// 		"			}",
-	// 		"		}",
-	// 		"		cout<<endl;",
-	// 		"	}",
-	// 		"}",
-	// 	],
-	// 	"description": "func to generate subsets"
-	// },
+	"generate subsets": {
+		"prefix": ["subsets","generateSubsets"],
+		"body": [
+			"void subset(int* arr,int n){",
+			"\tfor(int i=0;i<(1<<n);i++){",
+			"\t\tfor(int j=0;j<n;j++){",
+			"\t\t\tif(i & (1<<j)){",
+			"\t\t\t\tcout<<arr[j]<<\" \";",
+			"\t\t\t}",
+			"\t\t}",
+			"\t\tcout<<endl;",
+			"\t}",
+			"}",
+		],
+		"description": "func to generate subsets"
+	},
 	"extended gcd and functions":{
 		"prefix": ["xgcd","mminv"],
 		"body": [
